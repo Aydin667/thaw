@@ -6,7 +6,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-10 grid gap-8 sm:grid-cols-3">
         <div>
           <div className="font-pixel text-sm mb-3">
-            SLOT<span className="text-green">ZERO</span>
+            TH<span className="text-green">AW</span>
           </div>
           <p className="text-sm text-muted leading-relaxed max-w-xs">
             Pump.fun launches where the dev bag is capped and melts on a public schedule from second zero.

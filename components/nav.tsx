@@ -25,7 +25,7 @@ export function Nav() {
             className="pixelated"
           />
           <span className="font-pixel text-sm tracking-wide">
-            SLOT<span className="text-green">ZERO</span>
+            TH<span className="text-green">AW</span>
           </span>
         </Link>
         <nav className="hidden sm:flex items-center gap-1 font-mono text-sm">

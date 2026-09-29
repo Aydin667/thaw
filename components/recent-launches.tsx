@@ -32,10 +32,10 @@ export function RecentLaunches({ limit = 12 }: { limit?: number }) {
     return (
       <div className="border border-line bg-surface rounded-sm p-8 text-center">
         <p className="font-mono text-sm text-muted mb-1">
-          no sealed launches yet
+          no thaw launches yet
         </p>
         <p className="font-mono text-xs text-muted">
-          the first seal on this deployment will appear here, read straight
+          the first thaw launch on this deployment will appear here, read straight
           from the chain
         </p>
       </div>
