@@ -40,7 +40,7 @@ export function Footer() {
       </div>
       <div className="border-t border-line">
         <div className="mx-auto max-w-6xl px-4 py-4 font-mono text-xs text-muted flex flex-wrap gap-2 justify-between">
-          <span>© {new Date().getFullYear()} thaw.lol</span>
+          <span>© {new Date().getFullYear()} thawlaunch.lol</span>
           <span>
             memecoins are extremely risky. a public melt schedule is not investment
             advice.

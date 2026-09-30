@@ -182,8 +182,8 @@ export default function HowPage() {
           rate and live frozen balance next to any mint:
         </p>
         <pre className="border border-line bg-surface rounded-sm px-4 py-3 font-mono text-xs text-text overflow-x-auto">
-{`GET https://thaw.lol/api/verify/<mint>
-GET https://thaw.lol/api/launches`}
+{`GET https://thawlaunch.lol/api/verify/<mint>
+GET https://thawlaunch.lol/api/launches`}
         </pre>
       </section>
 

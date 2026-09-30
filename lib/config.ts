@@ -81,4 +81,4 @@ export const JITO_TIP_ACCOUNTS = [
 export const SITE_NAME = "Thaw";
 export const SITE_TAGLINE = "The dev bag melts in public.";
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://thaw.lol";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://thawlaunch.lol";

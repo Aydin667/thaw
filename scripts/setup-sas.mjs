@@ -1,6 +1,6 @@
 /**
  * One-time SAS registry setup: creates the Thaw credential and the
- * SealedLaunchV1 schema under the platform authority.
+ * ThawLaunchV1 schema under the platform authority.
  *
  * Usage:
  *   SOLANA_RPC_URL=... PLATFORM_KEYPAIR=... node scripts/setup-sas.mjs
@@ -26,7 +26,7 @@ import {
 import { createNoopSigner } from "@solana/kit";
 
 const CREDENTIAL_NAME = "Thaw";
-const SCHEMA_NAME = "SealedLaunchV1";
+const SCHEMA_NAME = "ThawLaunchV1";
 const SCHEMA_VERSION = 1;
 const SCHEMA_LAYOUT = new Uint8Array([12, 12, 12, 3, 3, 8, 8, 12, 12, 8]);
 const SCHEMA_FIELDS = [
@@ -110,7 +110,7 @@ if (schemaInfo) {
         name: SCHEMA_NAME,
         credential,
         description:
-          "Thaw sealed launch certificate: a Pump.fun token whose creator allocation was bought and locked into an uncancellable Jupiter Lock vesting escrow atomically at creation. thaw.lol",
+          "Thaw launch certificate: a Pump.fun token with a capped dev allocation melting on a no-cliff, uncancellable public schedule from creation. thawlaunch.lol",
         layout: SCHEMA_LAYOUT,
         fieldNames: SCHEMA_FIELDS,
         schema,

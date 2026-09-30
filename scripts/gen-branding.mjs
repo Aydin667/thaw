@@ -232,7 +232,7 @@ function drawMark(png, ox, oy, s) {
   drawText(png, finalLabel, dx + 14, dy + 12, 3, BG);
 
   // url bottom-left
-  drawText(png, "THAW.LOL", 120, 440, 3, GREEN_DIM.map((v) => v * 2));
+  drawText(png, "THAWLAUNCH.LOL", 120, 440, 3, GREEN_DIM.map((v) => v * 2));
   save(png, join(root, "public/branding/banner.png"));
 }
 
@@ -249,7 +249,7 @@ function drawMark(png, ox, oy, s) {
   drawText(png, "THE DEV BAG MELTS IN PUBLIC.", wx + 2, wy + 84, 4, MUTED);
   drawText(png, "PUMP.FUN LAUNCHES WHERE THE DEV BAG", wx + 2, wy + 140, 3, TEXT);
   drawText(png, "MELTS ON A PUBLIC SCHEDULE, NO CLIFF", wx + 2, wy + 172, 3, TEXT);
-  drawText(png, "THAW.LOL", wx + 2, 520, 3, GREEN);
+  drawText(png, "THAWLAUNCH.LOL", wx + 2, 520, 3, GREEN);
   save(png, join(root, "public/branding/og.png"));
 }
 

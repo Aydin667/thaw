@@ -181,7 +181,7 @@ async function buildEscrowInstructionsInner(args: {
   const metadataIx = await program.methods
     .createVestingEscrowMetadata({
       name: `Thaw Seal — ${args.symbol}`,
-      description: `Creator allocation of ${args.tokenName} (${args.symbol}), sealed at launch via thaw.lol. Uncancellable vesting escrow created atomically with the token.`,
+      description: `Creator allocation of ${args.tokenName} (${args.symbol}), launched via thawlaunch.lol — capped dev allocation on a no-cliff public melt schedule. Uncancellable vesting escrow created atomically with the token.`,
       creatorEmail: "",
       recipientEmail: "",
     })

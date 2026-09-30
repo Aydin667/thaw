@@ -85,7 +85,7 @@ export async function POST(req: Request) {
     // Pin image + metadata (skipped placeholder in dry-run without Pinata)
     let metadataUri: string;
     if (env.dryRun && !env.pinataJwt) {
-      metadataUri = "https://thaw.lol/dryrun-metadata.json";
+      metadataUri = "https://thawlaunch.lol/dryrun-metadata.json";
     } else {
       const ext = mime.split("/")[1];
       const pinnedImage = await pinImage(imageBytes, mime, `token.${ext}`);
@@ -95,7 +95,7 @@ export async function POST(req: Request) {
         description: parsed.data.description,
         image: pinnedImage.url,
         showName: true,
-        createdOn: "https://thaw.lol",
+        createdOn: "https://thawlaunch.lol",
         ...(parsed.data.website ? { website: parsed.data.website } : {}),
         ...(parsed.data.twitter ? { twitter: parsed.data.twitter } : {}),
         ...(parsed.data.telegram ? { telegram: parsed.data.telegram } : {}),

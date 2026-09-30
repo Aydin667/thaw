@@ -318,7 +318,7 @@ export function LaunchForm() {
               target="_blank"
               rel="noopener noreferrer"
               href={`https://x.com/intent/post?text=${encodeURIComponent(
-                `just launched on Thaw — my dev bag melts in public on a fixed schedule, no cliff, capped size.\n\nthe whole schedule is on-chain from second zero. verify it:\n\nhttps://thaw.lol/t/${prep.mint}`,
+                `just launched on Thaw — my dev bag melts in public on a fixed schedule, no cliff, capped size.\n\nthe whole schedule is on-chain from second zero. verify it:\n\nhttps://thawlaunch.lol/t/${prep.mint}`,
               )}`}
             >
               share proof on X →

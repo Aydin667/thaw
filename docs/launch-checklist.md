@@ -2,7 +2,7 @@
 
 ## Infrastructure
 - [ ] Render service live, `GET /api/health` → `{ok:true, configured:true}`
-- [ ] `thaw.lol` resolves, HTTPS valid, `www` → apex redirect
+- [ ] `thawlaunch.lol` resolves, HTTPS valid, `www` → apex redirect
 - [ ] Helius RPC set (`getProgramAccounts` + `simulateBundle` capable)
 - [ ] `PLATFORM_KEYPAIR` set in Render env only; address funded ≥ 0.05 SOL
 - [ ] `scripts/setup-sas.mjs` run once (credential + schema on-chain)

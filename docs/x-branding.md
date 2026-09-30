@@ -13,7 +13,7 @@
 (Check availability at registration; prefer 1, falling back in order.)
 
 ## Bio (≤160 chars)
-> Pump.fun launches where the dev bag is capped and melts on a public schedule from second zero. No cliff, no unlock walls. Verify any melt on-chain. thaw.lol
+> Pump.fun launches where the dev bag is capped and melts on a public schedule from second zero. No cliff, no unlock walls. Verify any melt on-chain. thawlaunch.lol
 
 ## Profile
 - PFP: `/public/branding/pfp.png` (icy melting-ice mark)
@@ -32,7 +32,7 @@
 >
 > it's a real pump.fun token: same curve, same graduation. the only difference is you can see precisely how much the dev can sell, and how slowly, from second zero — and it can't be sped up by anyone.
 >
-> thaw.lol
+> thawlaunch.lol
 
 ## Short launch tweet
 
@@ -40,7 +40,7 @@
 >
 > the whole sell schedule is on-chain before anyone buys.
 >
-> thaw.lol
+> thawlaunch.lol
 
 ## Technical launch tweet
 
@@ -50,7 +50,7 @@
 > tx2: 100% of the dev buy → Jupiter Lock escrow that releases linearly from t=0, no cliff; cancel/update modes NONE (can't be frozen, cancelled, or accelerated) + a Lighthouse assert that the dev wallet keeps 0 un-escrowed tokens, else the bundle reverts
 > tx3: an on-chain certificate (SAS) recording the cap, the melt rate, and the bundle sig
 >
-> the token cannot exist without its public melt schedule. verify any mint: thaw.lol/api/verify/<mint>
+> the token cannot exist without its public melt schedule. verify any mint: thawlaunch.lol/api/verify/<mint>
 
 ## Follow-up tweets (5)
 
@@ -63,7 +63,7 @@
 3. > "dev sold" alerts are a smoke detector that goes off after the house burns down.
    > Thaw shows you the exact burn rate in advance — how many tokens can leave per hour, forever.
 
-4. > every Thaw launch is public JSON: GET thaw.lol/api/verify/<mint>
+4. > every Thaw launch is public JSON: GET thawlaunch.lol/api/verify/<mint>
    > returns the cap, the melt rate, and how much is still frozen right now. terminals + TG bots: plug it in.
 
 5. > it's the same pump.fun token underneath — same bonding curve, same PumpSwap graduation. Thaw just makes the dev's exit a slow, public, uncancellable drip instead of a surprise.
@@ -88,7 +88,7 @@
 
 > 9/ what Thaw doesn't do: stop third-party snipers (no venue can without owning the curve), or stop someone funding fresh wallets — that stays visible to funding-graph scanners. it fixes the dev bag, not the whole market.
 
-> 10/ normal pump.fun token, normal curve, normal graduation. one difference: the dev's exit is a slow public drip anyone can watch, from second zero. launch: thaw.lol
+> 10/ normal pump.fun token, normal curve, normal graduation. one difference: the dev's exit is a slow public drip anyone can watch, from second zero. launch: thawlaunch.lol
 
 ## Content rules
 - No rocket/fire emoji clusters, no "revolutionary/game-changing".

@@ -1,6 +1,6 @@
 # Thaw — the dev bag melts in public
 
-**thaw.lol** is a Pump.fun launchpad where the dev allocation is
+**thawlaunch.lol** is a Pump.fun launchpad where the dev allocation is
 **hard-capped and melts linearly from the token's first second — no cliff, no
 surprise unlock wall**.
 
@@ -114,7 +114,7 @@ After funding the platform key:
 SOLANA_RPC_URL=... PLATFORM_KEYPAIR=... node scripts/setup-sas.mjs
 ```
 
-creates the `Thaw` SAS credential and `SealedLaunchV1` schema
+creates the `Thaw` SAS credential and `ThawLaunchV1` schema
 (idempotent).
 
 ## Pump.fun integration
@@ -141,7 +141,7 @@ the on-chain `Global` + fee config.
 
 ## Domain
 
-`thaw.lol` (Porkbun) → Render custom domain. Apex `thaw.lol` is
+`thawlaunch.lol` (Porkbun) → Render custom domain. Apex `thawlaunch.lol` is
 canonical; `www` redirects. DNS: apex A/ALIAS per Render's instructions +
 `www` CNAME to the service host.
 
